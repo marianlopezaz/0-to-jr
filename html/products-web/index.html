@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi lista de productos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Mi lista de productos</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre producto</th>
+          <th>Link del producto</th>
+          <th>Imagen del producto</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coca cola</td>
+          <td><a href="link-coca-cola">coca cola link</a></td>
+          <td><img src="./images/coca.webp" alt="Coca Cola" /></td>
+          <td>
+            <button>Ver</button>
+            <button>Editar</button>
+            <button>Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Pepsi</td>
+          <td><a href="link-pepsi">pepsi link</a></td>
+          <td><img src="./images/pepsi.webp" alt="Pepsi" /></td>
+          <td>
+            <button>Ver</button>
+            <button>Editar</button>
+            <button>Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Agregar un nuevo producto</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre del producto:</label>
+      <input type="text" id="nombre" name="nombre" />
+
+      <label for="link">Link del producto:</label>
+      <input type="text" id="link" name="link" />
+
+      <label for="imagen">URL de la imagen del producto:</label>
+      <input type="text" id="imagen" name="imagen" />
+
+      <input type="submit" value="Agregar" />
+    </form>
+  </body>
+</html>
