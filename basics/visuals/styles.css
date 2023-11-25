@@ -1,0 +1,8 @@
+.visual-design {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  opacity: 0.8;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 50%;
+}

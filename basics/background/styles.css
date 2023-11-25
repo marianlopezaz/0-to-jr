@@ -1,0 +1,6 @@
+.fondo-personalizado {
+  background-color: lightblue;
+  background-image: url("imagen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
