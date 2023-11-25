@@ -52,5 +52,3 @@ La sección `<body>` contiene el contenido visible del documento:
   </body>
 </html>
 ```
-
-Este documento es un ejemplo básico de cómo se utilizan las etiquetas comunes en HTML para estructurar el contenido de una página web.
